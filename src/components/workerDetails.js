@@ -28,26 +28,28 @@ class WorkerDetails extends Component {
             <Image src={details.image} alt="Oompa Loompa Worker" />
 
             <table>
-              <tr>
-                <td>Profession:</td>
-                <td>{details.profession}</td>
-              </tr>
-              <tr>
-                <td>Gender:</td>
-                <td>{details.gender === "M" ? "Male" : "Female"}</td>
-              </tr>
-              <tr>
-                <td>Height: </td>
-                <td>{details.height}</td>
-              </tr>
-              <tr>
-                <td>Origin:</td>
-                <td> {details.country}</td>
-              </tr>
-              <tr>
-                <td>Age:</td>
-                <td>{details.age}</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Profession:</td>
+                  <td>{details.profession}</td>
+                </tr>
+                <tr>
+                  <td>Gender:</td>
+                  <td>{details.gender === "M" ? "Male" : "Female"}</td>
+                </tr>
+                <tr>
+                  <td>Height: </td>
+                  <td>{details.height}</td>
+                </tr>
+                <tr>
+                  <td>Origin:</td>
+                  <td> {details.country}</td>
+                </tr>
+                <tr>
+                  <td>Age:</td>
+                  <td>{details.age}</td>
+                </tr>
+              </tbody>
             </table>
           </SmallDetails>
 
